@@ -85,6 +85,18 @@ Algorithm:
 * Only by having both the original data and the key can you verify the MAC. 
 * Thus, a MAC is a more secure way to guard a block of data from modification than a message digest
 
+Algorithm:
+* HmacSHA224
+*  HmacSHA256
+*  HmacSHA384
+*  HmacSHA512
+*  HmacSHA512/224
+*  HmacSHA512/256
+*  HmacSHA3-224
+*  HmacSHA3-256
+*  HmacSHA3-384
+*  HmacSHA3-512
+
 ##KeyStore ##
 * The Java KeyStore is a database that can contain keys. A Java KeyStore is represented by the KeyStore (java.security.KeyStore) class. 
 * A KeyStore can hold the following types of keys:
