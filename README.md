@@ -1,4 +1,4 @@
-#Cryptography with JAVA #
+# Cryptography with JAVA #
 
 > For More details, Visit https://jenkov.com/tutorials/java-cryptography/index.html
 
@@ -69,7 +69,7 @@ Algorithm:
 
 Example - crypto wallet
 
-##Asymmetric encryption ##
+## Asymmetric encryption ##
 private key for encryption. public key for decryption
 
 Algorithm: 
@@ -79,7 +79,7 @@ Algorithm:
 
 > Don't use Asymmetric encryption to encrypt large block of data
 
-##Mac ##
+## Mac ##
 * MAC is short for **Message Authentication Code**. 
 * A MAC is similar to a message digest, but uses an additional key to encrypt the message digest. 
 * Only by having both the original data and the key can you verify the MAC. 
@@ -97,7 +97,7 @@ Algorithm:
 *  HmacSHA3-384
 *  HmacSHA3-512
 
-##KeyStore ##
+## KeyStore ##
 * The Java KeyStore is a database that can contain keys. A Java KeyStore is represented by the KeyStore (java.security.KeyStore) class. 
 * A KeyStore can hold the following types of keys:
   * Private keys 
